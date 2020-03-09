@@ -1,0 +1,274 @@
+/*all*/
+body {
+	background-image: url(../images/fonds/fond_papier.jpg);
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+}
+a,ul,li{
+	text-decoration: none;
+	list-style: none;
+}
+#content {
+	background: transparent;
+	width: 960px;
+	height: 100%;
+	margin: auto;
+}
+#fleche {
+	position: fixed;
+	right: 50px;
+	bottom: 0px;
+}
+/*all*/
+
+
+
+/*header*/
+header {
+	position: fixed;
+	top: 0px;
+	left : 0px;
+	background-color: #fcfae9;
+	width: 100%;
+	height: 100px;
+	z-index: 999999;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#tete {
+	width: 960px;
+	height: 100px;
+	margin: auto;
+}
+#logo{
+	position: fixed;
+}
+#fake{
+	position: fixed;
+	margin-left: 425px;
+	margin-top: -15px;
+}
+#tw{
+	position: fixed;
+	margin-left: 502px;
+	margin-top: -15px;
+}
+#in{
+	position: fixed;
+	margin-left: 580px;
+	margin-top: -15px;
+}
+#langues{
+	position: fixed;
+	margin-left: 665px;
+	margin-top: -15px;
+}
+
+#radio {
+	position: fixed;
+	margin-left: 140px;
+	margin-top: -15px;
+}
+#menu {
+	position: fixed;
+	width: 750px;
+	height: 100px;
+	top: 0px;
+	margin-left:258px;
+}
+#menu a {
+	color: #660000;
+	font-size: 25px;
+	margin-left: 5px;
+	margin-top: 50px;
+	float: left;
+}
+#flechebas2 {
+	z-index:2;
+	margin-top:83px;
+	margin-left:-363px;
+}
+
+#flechebas3 {
+	z-index:2;
+	margin-top:83px;
+	margin-left:-100px;
+}
+#flechebas {
+	z-index:2;
+	margin-top:83px;
+	margin-left:-625px;
+}
+
+/*header*/
+
+
+
+#titre {
+	width:960px;
+	height:133px;
+	margin:auto;
+	margin-top:100px;
+}
+
+#image1{
+	float:right;
+}
+
+#imagetitre {
+	margin-left:350px;
+	margin-top:50px;
+
+}
+
+#fildariane {
+	position: relative;
+	top:0px;
+}
+#fildariane a {
+	color:#fff;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	color:#a11313;
+}
+#fildariane a:hover {
+	color:#639451;
+	text-decoration:underline;
+}
+
+
+
+/*Menu à deux onglets*/
+#choice {
+	width: 960px;
+	height: 100%;
+}
+#menu2 a{
+	color: white;
+	display:block;	
+	background-image:url(../images/fonds/carre_vert.jpg);
+	text-align:center;
+	float:left;
+	margin-top: 45px;
+	width: 160px;
+	height:40px;
+	margin-left:105px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	font-size: 18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#menu2 a:hover {
+	text-decoration:underline;
+}
+
+#block2 {
+	height: 100px;
+	width: 960px;
+}
+
+
+
+/*cont*/
+
+
+#jour1,#jour2, #jour3 {
+	margin:0px auto 0px auto;
+	width:960px;
+	height:380px;
+}
+
+
+#colonne1, #colonne4, #colonne7 {
+	margin-left:80px;
+	margin-right:5px;
+	width:265px;
+	display:inline-block;
+	float:left;
+}
+#colonne2, #colonne5, #colonne8 {
+	width:265px;
+	margin-right:5px;
+	margin-left:5px;
+	display:inline-block;
+	float:left;	
+}
+#colonne3, #colonne6, #colonne9 {
+	margin-left:5px;
+	margin right:65px;
+	width:265px;
+	display:inline-block;
+	float:left;	
+}
+
+
+#time {
+	font-size: 18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#ffdf47;
+	text-align:center;
+	font-weight:bolder;
+	background:url(../images/fonds/fond_fushia.png);
+}
+
+
+#jour1 img, #jour2 img, #jour3 img {
+	margin-left:7px;
+	margin-top:-10px;
+	
+	
+}
+
+#jour1 img:hover, #jour2 img:hover, #jour3 img:hover {
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px #888;
+	box-shadow: 0 0 5px 5px #888;
+	
+}
+/*cont*/
+
+/*footer*/
+footer {
+	width:100%;
+	height:450px;
+	background-image:url(../images/fonds/fond_sable.png);
+	background-size: cover;
+	-moz-background-size: cover;
+	background-repeat:no-repeat;
+	float: left;
+}
+#tete2 {
+	padding-top: 105px;
+	width: 960px;
+	height: 200px;
+	margin: auto;
+}
+#sponsors {
+	float:right;
+	height: 250px;
+}
+#sponsors img {
+	padding: 25px;
+}
+#liensfooter a {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	margin-left:25px;
+	font-weight:bold;
+	padding: 0px 15px;
+}
+#copyright {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-align:right;
+	margin-right: 25px;
+	margin-top:-25px;
+}
+#cabane {
+	position: absolute;
+	z-index: 10;
+	margin-left: 200px;
+	margin-top: -95px;
+}
+/*footer*/

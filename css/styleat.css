@@ -1,0 +1,359 @@
+/*all*/
+body {
+	background-image: url(../images/fond_papier.jpg);
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+}
+a,ul,li{
+	text-decoration: none;
+	list-style: none;
+}
+#content {
+	background: transparent;
+	width: 960px;
+	height:100%;
+	margin: auto;
+}
+#fleche {
+	position: fixed;
+	right: 50px;
+	bottom: 0px;
+}
+/*all*/
+
+
+
+/*header*/
+header {
+	position: fixed;
+	top: 0px;
+	left : 0px;
+	background-color: #fcfae9;
+	width: 100%;
+	height: 100px;
+	z-index: 999999;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#tete {
+	width: 960px;
+	height: 100px;
+	margin: auto;
+}
+#logo{
+	position: fixed;
+}
+#fake{
+	position: fixed;
+	margin-left: 425px;
+	margin-top: -15px;
+}
+#tw{
+	position: fixed;
+	margin-left: 502px;
+	margin-top: -15px;
+}
+#in{
+	position: fixed;
+	margin-left: 580px;
+	margin-top: -15px;
+}
+#langues {
+	position: fixed;
+	margin-left: 650px;
+	margin-top: -66px;
+}
+#radio {
+	position: fixed;
+	margin-left: 140px;
+	margin-top: -15px;
+}
+#menu {
+	position: fixed;
+	width: 750px;
+	height: 100px;
+	top: 0px;
+	margin-left:258px;
+}
+#menu a {
+	color: #660000;
+	font-size: 25px;
+	margin-left: 5px;
+	margin-top: 50px;
+	float: left;
+}
+/*header*/
+
+
+
+/*content*/
+#titre {
+	width:960px;
+	height:133px;
+	margin:auto;
+	margin-top:100px;
+}
+#tick {
+	position: relative;
+	left: 825px;
+	top: 50px;
+}
+#imagetitre{
+	position: relative;
+	left: 225px;
+	top: 50px;
+}
+#fildariane {
+	padding-top:100px;
+	text-indent:10px;
+}
+#fildariane a {
+	color:#fff;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	color:#a11313;
+}
+#fildariane a:hover {
+	color:#09F;
+	text-decoration:underline;
+}
+
+
+/*Menu à deux onglets*/
+#menu2{
+	position:relative;
+	top:-158px;
+	z-index:9;
+}
+#menu2 a{
+	color: white;
+	background-image:url(../images/carre_vert.jpg);
+	text-align:center;
+	float:left;
+	height: 35px;
+	width: 265px;
+	margin-left:110px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	font-size: 18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#menu2 a:hover {
+	text-decoration:underline;
+}
+#indic{
+	position: relative;
+	left: -525px;
+	top: -124px;
+}
+
+#menu3 {
+	width: 960px;
+	height: 275px;
+	text-align: center;
+	background-image: url(../images/fond_fushia.png);
+	background-repeat: no-repeat;
+}
+#menu3 a{
+	position: relative;
+	top: 200px;
+	margin-left: -60px;
+	z-index: 8;
+}
+
+
+#linkjimihendrix {
+	width:180px;
+	height:100px;
+	display:inline-block;
+	margin:-2px;
+	margin-left: -20px;
+}
+#linkjimihendrix a{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	color:#ffdf47;
+	vertical-align:top;
+}
+#linkjimihendrix a:hover{
+	text-decoration:underline;
+}
+#linkmamasandpapas {
+	width:160px;
+	height:100px;
+	display:inline-block;
+	margin:-2px;
+	vertical-align:top;
+	margin-left: 15px;
+}
+#linkmamasandpapas a{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	color:#ffdf47;
+	margin-top: 15px;
+}
+#linkmamasandpapas a:hover{
+	text-decoration:underline;
+}
+
+
+.liens {
+	width:140px;
+	height:100px;
+	text-align:center;
+	display:inline-block;
+}
+.liens a{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	color:#ffdf47;
+	vertical-align:middle;
+}
+.liens a:hover {
+	text-decoration: underline;
+}
+/*Menu à deux onglets*/
+
+
+
+/*cont*/
+#presentation {
+	width: 770px;
+	height: 25%;
+	margin-top: 100px;
+	margin-left: 110px;
+	display: inline-block;
+}
+#profil {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: relative;
+	top: -60px;
+	font-size: 21px;
+	color: #660000;
+	font-weight: bold;
+	display: inline-block;
+}
+#profilmp {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 21px;
+	color: #660000;
+	font-weight: bold;
+	display: inline-block;
+}
+
+#jimi {
+	margin-left: -50px;
+}
+#profiljimi{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 21px;
+	color: #660000;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 250px;
+	margin-top: -425px;
+}
+
+h1 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:55px;
+	color:#cc0033;
+	text-align:center;
+}
+h2 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+	color:#990000;	
+}
+p {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:17px;
+	color:#660000;
+}
+#text {
+	width:770px;
+	height:40%;
+	margin:0px 90px 0px 90px;
+	margin-top: 30px;
+}
+
+
+#thewho{
+	width: 960px;
+	position: relative;
+	top: -151px;
+}
+#jimihendrix{
+	width: 960px;
+	position: relative;
+	top: -175px;
+}
+#janisjopplin{
+	width: 960px;
+	position: relative;
+	top: -175px;
+}
+#otisredding{
+	width: 960px;
+	position: relative;
+	top: -175px;
+}
+#ravishankar{
+	width: 960px;
+	position: relative;
+	top: -175px;
+}
+#mamasandpapas{
+	width: 960px;
+	position: relative;
+	top: -175px;
+}
+/*cont*/
+
+
+
+/*footer*/
+footer {
+	width:100%;
+	height:450px;
+	background-image:url(../images/fond_sable.png);
+	background-size: cover;
+	-moz-background-size: cover;
+	background-repeat:no-repeat;
+	float: left;
+}
+#cabane {
+	position: absolute;
+	z-index: 10;
+	margin-left: 200px;
+	margin-top: -95px;
+}
+#tete2 {
+	padding-top: 105px;
+	width: 960px;
+	height: 200px;
+	margin: auto;
+}
+#sponsors {
+	float:right;
+	height: 250px;
+}
+#sponsors img {
+	padding: 25px;
+}
+#liensfooter a {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	margin-left:25px;
+	font-weight:bold;
+	padding: 0px 15px;
+}
+#copyright {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-align:right;
+	margin-right: 25px;
+	margin-top:-25px;
+}
+/*footer*/

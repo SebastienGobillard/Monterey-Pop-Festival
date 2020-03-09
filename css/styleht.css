@@ -1,0 +1,370 @@
+/*all*/
+body {
+	background-image: url(../images/fonds/fond_papier.jpg);
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+}
+a,ul,li{
+	text-decoration: none;
+	list-style: none;
+}
+#content {
+	background: transparent;
+	width: 960px;
+	height: 100%;
+	margin: auto;
+}
+#fleche {
+	position: fixed;
+	right: 50px;
+	bottom: 0px;
+}
+/*all*/
+
+
+
+/*header*/
+header {
+	position: fixed;
+	top: 0px;
+	left : 0px;
+	background-color: #fcfae9;
+	width: 100%;
+	height: 100px;
+	z-index: 999999;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#tete {
+	width: 960px;
+	height: 100px;
+	margin: auto;
+}
+#logo{
+	position: fixed;
+}
+#fake{
+	position: fixed;
+	margin-left: 425px;
+	margin-top: -15px;
+}
+#tw{
+	position: fixed;
+	margin-left: 502px;
+	margin-top: -15px;
+}
+#in{
+	position: fixed;
+	margin-left: 580px;
+	margin-top: -15px;
+}
+#langues{
+	position: fixed;
+	margin-left: 665px;
+	margin-top: -15px;
+}
+
+#radio {
+	position: fixed;
+	margin-left: 140px;
+	margin-top: -15px;
+}
+#menu {
+	position: fixed;
+	width: 750px;
+	height: 100px;
+	top: 0px;
+	margin-left:258px;
+}
+#menu a {
+	color: #660000;
+	font-size: 25px;
+	margin-left: 5px;
+	margin-top: 50px;
+	float: left;
+}
+
+
+
+/*header*/
+
+
+
+#titre {
+	width:960px;
+	height:133px;
+	margin:auto;
+	margin-top:100px;
+}
+
+#image1{
+	float:right;
+}
+
+#imagetitre {
+	margin-left:350px;
+	margin-top:50px;
+
+}
+
+#fildariane {
+	position: relative;
+	top:0px;
+}
+#fildariane a {
+	color:#fff;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	color:#a11313;
+}
+#fildariane a:hover {
+	color:#639451;
+	text-decoration:underline;
+}
+
+
+
+/*Menu à deux onglets*/
+#choice {
+	width: 960px;
+	height: 100%;
+}
+#menu2 a{
+	color: white;
+	display:block;	
+	background-image:url(../images/fonds/carre_vert.jpg);
+	text-align:center;
+	float:left;
+	margin-top: 45px;
+	width: 265px;
+	height:40px;
+	margin-left:110px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	font-size: 18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#menu2 a:hover {
+	text-decoration:underline;
+}
+
+#flechebas2 {
+	z-index:2;
+	margin-top:82px;
+	margin-left:-150px;
+}
+
+#flechebas {
+	z-index:2;
+	margin-top:82px;
+	margin-left:-530px;
+}
+
+#block2 {
+	height: 100px;
+	width: 960px;
+}
+
+
+
+/*cont*/
+#cont {
+	width:960px;
+	height:1400px;
+	margin:0px auto 0px auto;
+}
+
+
+iframe {
+	margin-left:250px;
+	margin-top:20px;
+}
+
+#presentation {
+	width:795px;
+	height:250px;
+	display:block;
+	position:relative;
+	top:30px;
+	padding:0px 75px 0px 90px;
+}
+
+#remember {
+	width:795px;
+	height:350x;
+	display:block;
+	position:relative;
+	top:30px;
+	padding:0px 75px 0px 90px;
+}
+
+#organizers {
+	width:795px;
+	height:350px;
+	display:block;
+	position:relative;
+	top:30px;
+	padding:0px 75px 0px 90px;
+}
+
+#photos {
+	width:795px;
+	height:250px;
+	display:block;
+	position:relative;
+	top:30px;
+	padding:0px 75px 0px 90px;
+}
+
+h1,h2,h3 {
+	font-size: 49px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#cc0033;
+}
+
+p{
+	font-size: 17px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#660000;
+}
+
+#photo {
+	position:relative;
+	float:left;
+	margin-top:40px;
+	margin-right:10px;
+}
+
+#photo2 {
+	position:relative;
+	float:right;
+	margin-top:40px;
+	margin-right:10px;
+}
+
+#cont2 {
+	width:960px;
+	height:1700px;
+	margin:auto;
+
+}
+
+
+#partie1 {
+	width:795px;
+	height:350px;
+	display:block;
+	position:relative;
+	top:30px;
+	padding:0px 75px 0px 90px;
+}
+
+#partie2 {
+	width:795px;
+	height:275px;
+	display:block;
+	position:relative;
+	top:30px;
+	padding:0px 75px 0px 90px;
+}
+
+#partie3 {
+	width:795px;
+	height:450px;
+	display:block;
+	position:relative;
+	padding:0px 75px 0px 90px;
+	top:-30px;
+
+}
+
+#partie4 {
+	width:795px;
+	height:50px;
+	display:block;
+	position:relative;
+	padding:0px 75px 0px 90px;
+	text-align:center;
+}
+
+#photo3 {
+	position:relative;
+	float:right;
+	margin-right:10px;
+	margin-top:20px;
+}
+
+#photo4 {
+	position:relative;
+	float:left;
+	margin-top:20px;
+	margin-right:10px;
+}
+
+#photos2 {
+	width:795px;
+	height:250px;
+	display:block;
+	position:relative;
+	padding:0px 75px 0px 90px;
+	}
+
+#fin {
+	font-size: 28px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#cc0033;
+	margin-top:-30px;
+	width:100%;
+	height:30px;
+	
+		
+}
+
+
+/*cont*/
+
+/*footer*/
+footer {
+	width:100%;
+	height:450px;
+	background-image:url(../images/fonds/fond_sable.png);
+	background-size: cover;
+	-moz-background-size: cover;
+	background-repeat:no-repeat;
+	float: left;
+}
+#tete2 {
+	padding-top: 105px;
+	width: 960px;
+	height: 200px;
+	margin: auto;
+}
+#sponsors {
+	float:right;
+	height: 250px;
+}
+#sponsors img {
+	padding: 25px;
+}
+#liensfooter a {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	margin-left:25px;
+	font-weight:bold;
+	padding: 0px 15px;
+}
+#copyright {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-align:right;
+	margin-right: 25px;
+	margin-top:-25px;
+}
+#cabane {
+	position: absolute;
+	z-index: 10;
+	margin-left: 200px;
+	margin-top: -95px;
+}
+/*footer*/

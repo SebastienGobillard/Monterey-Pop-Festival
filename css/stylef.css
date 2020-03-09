@@ -1,0 +1,249 @@
+/*all*/
+body {
+	background-image: url(../images/fond_papier.jpg);
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+	margin: 0px;
+}
+a,ul,li{
+	text-decoration: none;
+	list-style: none;
+}
+#content {
+	background: transparent;
+	width: 960px;
+	height: 100%;
+	margin: auto;
+}
+#fleche {
+	position: fixed;
+	right: 50px;
+	bottom: 0px;
+}
+/*all*/
+
+
+
+/*header*/
+header {
+	position: fixed;
+	top: 0px;
+	left : 0px;
+	background-color: #fcfae9;
+	width: 100%;
+	height: 100px;
+	z-index: 999999;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#tete {
+	width: 960px;
+	height: 100px;
+	margin: auto;
+}
+#logo{
+	position: fixed;
+}
+#fake{
+	position: fixed;
+	margin-left: 508px;
+	margin-top: -15px;
+}
+#tw{
+	position: fixed;
+	margin-left: 585px;
+	margin-top: -15px;
+}
+#in{
+	position: fixed;
+	margin-left: 663px;
+	margin-top: -15px;
+}
+#langues {
+	position: fixed;
+	margin-left: 745px;
+	margin-top: -65px;
+}
+#radio {
+	position: fixed;
+	margin-left: 223px;
+	margin-top: -15px;
+}
+#menu {
+	position: fixed;
+	width: 800px;
+	height: 100px;
+	top: 0px;
+	margin-left:175px;
+}
+#menu a {
+	color: #660000;
+	font-size: 25px;
+	margin-left: 0px;
+	margin-top: 50px;
+	float: left;
+}
+/*header*/
+
+
+
+/*nav*/
+nav {
+	margin-top: 100px;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/fond_arc-en-ciel.png);
+	background-size: cover;
+	-moz-background-size: cover;
+	background-repeat: no-repeat;
+}
+#tete3 {
+	width: 960px;
+	height: 400px;
+	margin: auto;
+}
+#tickets {
+	position: absolute;
+	z-index: 150;
+	margin-left: 695px;
+	margin-top: 235px;
+}
+/*nav*/
+
+
+
+/*content*/
+#welcome {
+	height:190px;
+	width:835px;
+	margin-left:90px;
+	margin-right:35px;
+	margin-bottom:0px;
+	margin-top:50px;
+}
+#presentation {
+	width:650px;
+	height:105px;
+	margin-left:150px;
+	margin-right:160px;
+	margin-top:-15px;
+}
+#texte1 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	color:#732521;
+	font-size:17px;
+}
+#texte1 a {
+	color:#cc6600;
+	text-decoration:underline;
+}
+#navigation {
+	width:960px;
+	height:760px;
+	
+}
+#palierun {
+	margin-left:90px;
+	width:255px;
+	height:610px;
+	float:left;
+	padding-top:150px;
+}
+#palierdeux {
+	width:285px;
+	height:780px;
+	float:left;
+	margin-top:-20px;
+}
+#paliertrois {
+	margin-right:35px;
+	width:295px;
+	height:610px;
+	float:left;
+	padding-top:150px;
+}
+#newsletter {
+	margin-top:-40px;
+	float:left;
+	display:inline-block;
+}
+#textnews {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	color:#732521;
+	font-size:17px;
+	float:left;
+	margin-left:20px;
+}
+#radiobas {
+	position:relative;
+	display:inline-block;
+	z-index:20;
+	margin-top:-90px;
+	margin-left:160px;
+}
+#wrapper {
+	position: relative;
+	left: 615px;
+	top: 75px;
+}
+form {
+	margin-top:-20px;
+	text-indent:40px;
+	float:left;
+}
+/*content*/
+
+
+
+/*footer*/
+footer {
+	width:100%;
+	height:450px;
+	background-image:url(../images/fond_sable.png);
+	background-size: cover;
+	-moz-background-size: cover;
+	background-repeat:no-repeat;
+	float: left;
+}
+
+#cabane {
+	position: absolute;
+	z-index: 10;
+	margin-left: 200px;
+	margin-top: -95px;
+}
+#tete2 {
+	padding-top: 105px;
+	width: 960px;
+	height: 200px;
+	margin: auto;
+}
+
+#sponsors {
+	float:right;
+	height: 250px;
+}
+#sponsors img {
+	padding: 25px;
+}
+#liensfooter a {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	margin-left:15px;
+	font-weight:bold;
+	padding: 0px 15px;
+}
+#copyright {
+	color:#990000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-align:right;
+	margin-right: 15px;
+	margin-top:-25px;
+}
+/*footer*/

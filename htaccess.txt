@@ -1,0 +1,13 @@
+AuthUserFile /home/etudiants/mmi13f15/public_html/agence/sitefestival/htpasswd
+
+AuthGroupFile /dev/null
+
+AuthName "Acces securise a mon site"
+
+AuthType Basic
+
+<LIMIT GET POST>
+
+Require valid-user
+
+</LIMIT>
